@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Dashboard from "./components/Dashboard/Dashboard";
-import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
-import TaskManager from "./components/TaskManager/TaskManager";
-import GanttChart from "./components/GanttChart/GanttChart";
-import "./App.css";
+import Dashboard from "./Components/Dashboard/Dashboard.js";
+import ProjectDetails from "./Components/ProjectDetails/ProjectDetails.js";
+import TaskManager from "./Components/TaskManager/TaskManager.js";
+import GanttChart from "./Components/GanttChart/GanttChart.js";
+import "./index.css";
 
 function App() {
   return (
